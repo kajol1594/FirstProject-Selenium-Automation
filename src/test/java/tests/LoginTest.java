@@ -1,33 +1,34 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import TestBase.BaseClass;
 import pages.*;
 import utils.ReportUtils;
 
+@Listeners(listeners.TestListener.class)
 public class LoginTest extends BaseClass {
 	
-
+	
 	@Test
 	public void testValidLogin() {
-		 logger.info("Starting test: testValidLogin");
 		 
 		LoginPage loginPage = new LoginPage(driver);
 		DashboardPage dashboardPage = new DashboardPage(driver);
 
 		// Perform login
-		 logger.info("Entering username...");
+		 ReportUtils.test.info("Entering username...");
 		loginPage.enterUsername(properties.getProperty("username"));
-		 logger.info("Entering password...");
+		ReportUtils.test.info("Entering password...");
 		loginPage.enterPassword(properties.getProperty("password"));
-		 logger.info("Clicking login button...");
+		 ReportUtils.test.info("Clicking login button...");
 		loginPage.clickLogin();
 		
 		// Assert successful login
-		  logger.info("Verifying login was successful...");
+		ReportUtils.test.info("Verifying login was successful...");
 		Assert.assertTrue(dashboardPage.isDashboardDisplayed(), "Dashboard is not displayed after login.");
-		 logger.info("Test passed: testValidLogin");
+		 ReportUtils.test.pass("Test passed: testValidLogin");
 	}
 
 	@Test

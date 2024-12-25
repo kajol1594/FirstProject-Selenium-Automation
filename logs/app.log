@@ -41,3 +41,44 @@
 2024-12-22 20:13:00 [main] INFO  TestBase.BaseClass - Clicking login button...
 2024-12-22 20:13:00 [main] INFO  TestBase.BaseClass - Verifying login was successful...
 2024-12-22 20:13:01 [main] INFO  TestBase.BaseClass - Test passed: testValidLogin
+2024-12-25 16:28:05 [main] INFO  TestBase.BaseClass - Loading configuration file
+2024-12-25 16:28:05 [main] INFO  TestBase.BaseClass - Configuration loaded successfully.
+2024-12-25 16:28:05 [main] INFO  TestBase.BaseClass - Initializing WebDriver...
+2024-12-25 16:28:13 [main] INFO  TestBase.BaseClass - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2024-12-25 16:28:17 [main] INFO  TestBase.BaseClass - Starting test: testInvalidLogin
+2024-12-25 16:28:20 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 16:28:20 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 18:41:36 [main] INFO  TestBase.BaseClass - Loading configuration file
+2024-12-25 18:41:37 [main] INFO  TestBase.BaseClass - Configuration loaded successfully.
+2024-12-25 18:41:37 [main] INFO  TestBase.BaseClass - Initializing WebDriver...
+2024-12-25 18:41:43 [main] INFO  TestBase.BaseClass - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2024-12-25 18:41:46 [main] INFO  TestBase.BaseClass - Starting test: testInvalidLogin
+2024-12-25 18:41:49 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 18:41:49 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 19:10:16 [main] INFO  TestBase.BaseClass - Loading configuration file
+2024-12-25 19:10:16 [main] INFO  TestBase.BaseClass - Configuration loaded successfully.
+2024-12-25 19:10:16 [main] INFO  TestBase.BaseClass - Initializing WebDriver...
+2024-12-25 19:10:18 [main] INFO  TestBase.BaseClass - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2024-12-25 19:10:22 [main] INFO  TestBase.BaseClass - Starting test: testInvalidLogin
+2024-12-25 19:10:24 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 19:10:24 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 19:11:43 [main] INFO  TestBase.BaseClass - Loading configuration file
+2024-12-25 19:11:43 [main] INFO  TestBase.BaseClass - Configuration loaded successfully.
+2024-12-25 19:11:43 [main] INFO  TestBase.BaseClass - Initializing WebDriver...
+2024-12-25 19:11:45 [main] INFO  TestBase.BaseClass - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2024-12-25 19:11:48 [main] INFO  TestBase.BaseClass - Starting test: testInvalidLogin
+2024-12-25 19:11:51 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 19:11:51 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 20:19:10 [main] INFO  TestBase.BaseClass - Loading configuration file
+2024-12-25 20:19:10 [main] INFO  TestBase.BaseClass - Configuration loaded successfully.
+2024-12-25 20:19:10 [main] INFO  TestBase.BaseClass - Initializing WebDriver...
+2024-12-25 20:19:13 [main] INFO  TestBase.BaseClass - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2024-12-25 20:19:16 [main] INFO  TestBase.BaseClass - Starting test: testInvalidLogin
+2024-12-25 20:19:18 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 20:19:18 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
+2024-12-25 20:31:22 [main] INFO  TestBase.BaseClass - Loading configuration file
+2024-12-25 20:31:22 [main] INFO  TestBase.BaseClass - Configuration loaded successfully.
+2024-12-25 20:31:22 [main] INFO  TestBase.BaseClass - Initializing WebDriver...
+2024-12-25 20:31:24 [main] INFO  TestBase.BaseClass - Navigating to URL: https://opensource-demo.orangehrmlive.com/
+2024-12-25 20:31:28 [main] INFO  TestBase.BaseClass - Starting test: testInvalidLogin
+2024-12-25 20:31:30 [main] INFO  TestBase.BaseClass - Starting test: testValidLogin
