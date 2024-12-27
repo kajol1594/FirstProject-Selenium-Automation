@@ -8,14 +8,17 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 	private WebDriver driver;
 
-	@FindBy(xpath = "//input[@placeholder = 'Username']")
+	@FindBy(xpath="//*[text()=' Signup / Login']")
+	private WebElement menuLoginSignup;
+	@FindBy(name = "email")
 	private WebElement usernameField;
-	@FindBy(xpath = "//input[@placeholder = 'Password']")
+	@FindBy(name = "password")
 	private WebElement passwordField;
-	@FindBy(xpath = "//button[@type = 'submit']")
+	@FindBy(xpath = "//button[@data-qa='login-button']")
 	private WebElement loginButton;
-	@FindBy(xpath = "//*[text()=\"Invalid credentials\"]")
+	@FindBy(xpath = "//p[text()='Your email or password is incorrect!']")
 	private WebElement errorMessage;
+	
 
 	// constructor
 	public LoginPage(WebDriver driver) {
@@ -23,6 +26,10 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
+	
+	public void clickOnLoginSignupMenu() {
+		menuLoginSignup.click();
+	}
 	public void enterUsername(String username) {
 		usernameField.sendKeys(username);
 	}

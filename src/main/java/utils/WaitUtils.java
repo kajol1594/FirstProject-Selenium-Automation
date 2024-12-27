@@ -21,6 +21,8 @@ public class WaitUtils {
 		initializeWait(driver, timeOut);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
+	
+	
 
 	
 

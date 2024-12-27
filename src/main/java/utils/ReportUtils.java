@@ -12,6 +12,9 @@ public class ReportUtils {
 		ExtentSparkReporter spark = new ExtentSparkReporter("ExtentReports.html");
 		spark.config().setDocumentTitle("Selenium Automation Framework From Scratch");
 		spark.config().setReportName("Selenium Automation Testing Report");
+		//extent.setSystemInfo("OS",System.getProperty("os.name"));
+		//extent.setSystemInfo("Java Version", System.getProperty("java.version"));
+		//extent.setSystemInfo("User", System.getProperty("user.name"));
 		extent = new ExtentReports();
 		extent.attachReporter(spark);
 	}

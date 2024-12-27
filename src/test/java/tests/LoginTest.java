@@ -18,6 +18,8 @@ public class LoginTest extends BaseClass {
 		DashboardPage dashboardPage = new DashboardPage(driver);
 
 		// Perform login
+		ReportUtils.test.assignAuthor("Kajol Gupta");
+		ReportUtils.test.assignCategory("Smoke Test");
 		 ReportUtils.test.info("Entering username...");
 		loginPage.enterUsername(properties.getProperty("username"));
 		ReportUtils.test.info("Entering password...");
