@@ -1,2 +1,2 @@
 # FirstProject-Selenium-Automation
-I'm working with a selenium TestNG project using Java
+It is Selenium Automation framework using Core Java
